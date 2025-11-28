@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: calc(100% - 10px);
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        156deg,
+        rgba(219,132,203,1) 0%,
+        rgba(106,205,230,1) 50%,
+        rgba(201,127,142,1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* gjør at den fyller hele og ikke "tilter" når du scroller */
+}
+
+#main-container {
+    width: 400px;
+    margin: 5px auto 20px;
+}
+
+h1, p {
+    width: 100%;
+    text-align: center;
+}
+p {
+    padding: 5px 0;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+#top-container {
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+ul {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px 5px 5px 25px;
+    background-color: white;
+    min-height: 200px;
+    line-height: 1.75;
+}
+
+@media (max-width: 425px) {
+    #main-container {
+        width: 270px;
+    }
+}
