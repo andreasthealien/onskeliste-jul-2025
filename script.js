@@ -17,8 +17,9 @@ const Element = (display, link) => {
 const list = [
     Element("Seven Brief Lessons on Physics", "https://www.ark.no/produkt/boker/dokumentar-og-faktaboker/seven-brief-lessons-on-physics-9780141981727?gad_source=1&gad_campaignid=22902937865&gbraid=0AAAAAD22RQGySERJGwiK5loTZP6tokcgT&gclid=Cj0KCQiAiqDJBhCXARIsABk2kSnvxOiTqOgPgRuWb-JzH2LAvEMi2jFgkK1lBn6CM4UPvTTn1T5eRDQaAoDREALw_wcB"),
     Element("The Righteous Mind", "https://www.norli.no/boker/dokumentar-og-fakta/historie-og-dokumentar/the-righteous-mind?gad_source=1&gad_campaignid=22316185389&gbraid=0AAAAADsxdPBcpXlmPpgamTbfiTS-jYIHJ&gclid=Cj0KCQiAiqDJBhCXARIsABk2kSmIMWonFGT6I2JJZ6uQcMPKdNKCwDImTOQQ7-SxuQY-80x4Swr2-qgaAoAvEALw_wcB"),
+    Element("MOZA R3 bundle med racingratt", "https://www.power.no/gaming/vr-og-simulation/racingutstyr/moza-r3-bundle-med-racingratt-pc/p-3830243/?srsltid=AfmBOoqY6s8CAdcD7a7P_RRxNXSbTygOPWHUq8PPiAm0k69Ui5Md2FJmT8E"),
     Element("Powerbank", "https://www.elkjop.no/product/mobil-nettbrett-og-smartklokker/mobiltilbehor/powerbank/belkin-boostcharge-pro-20k-powerbank-for-barbar-pc-sort/866724"),
-    Element("Penger (for sparing til f.eks. bil)")
+    Element("Penger (for sparing til f.eks. bil)"),
 ];
 
 const createElement = (obj) => {
